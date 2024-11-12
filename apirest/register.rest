@@ -1,0 +1,9 @@
+post http://localhost:8000/auth/register/
+Content-Type: application/json
+
+{
+  "username": "testuser",
+  "password": "testpass123",
+  "is_client": true,
+  "is_provider": false
+}
