@@ -2,7 +2,14 @@ post http://localhost:8000/vetting/skills/
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzMxNDU4MDA3LCJpYXQiOjE3MzE0NTQ0MDcsImp0aSI6ImM2OTE3YjIzOGRjZTQ2ODc5NTUyZWQxM2E2MjU1ZWIzIiwidXNlcl9pZCI6MX0.8jgXzvRZ8N9g-TSXmdmukrFTZy5iigoP8ykxkxFjKzI
 Content-Type: application/json
 
+[
+  {
+    "name": "Python",
+    "proficiency": "Expert"
+  }
+,
 {
   "name": "Python",
   "proficiency": "Expert"
 }
+]

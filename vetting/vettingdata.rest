@@ -1,0 +1,33 @@
+post http://localhost:8000/vetting/data/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzMxNDU5MTU5LCJpYXQiOjE3MzE0NTU1NTksImp0aSI6IjcwN2Y0ZTIyOTNjNjQ0MTQ5MjRkMGY1MjEzMTRiZTJkIiwidXNlcl9pZCI6MX0.2AzF9WUa_TfHnJ--Q_UEaLQD6R-kpAyQwAs9azUIpY0
+Content-Type: application/json
+
+{
+  "skills": [
+    {
+      "name": "Python",
+      "proficiency": "Expert"
+    }
+  ],
+  "experience": [
+    {
+      "job_title": "Software Developer",
+      "company": "XYZ Corp",
+      "duration": 36,
+      "description": "Developed web applications"
+    },
+    {
+      "job_title": "Senior Developer",
+      "company": "ABC Ltd.",
+      "duration": 24,
+      "description": "Led a team of developers"
+    }
+  ],
+  "recommendations": [
+    {
+      "client": 1,
+      "service_provider": 2,
+      "recommendation_text": "Great work!"
+    }
+  ]
+}
